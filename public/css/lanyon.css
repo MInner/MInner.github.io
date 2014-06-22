@@ -310,11 +310,20 @@ a.sidebar-nav-item:focus {
 }
 
 a {
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  -o-transition:1s;
+  -ms-transition:1s;
+  -moz-transition:1s;
+  -webkit-transition:1s;
+  transition:1s;
+}
+
+.post a:hover {
+  color: red;
+  text-decoration:none;
+}
+
+.post-title a:hover {
+  color: #268bd2;
 }
 
 /* Blog post or page title */

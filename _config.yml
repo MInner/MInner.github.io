@@ -6,19 +6,14 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Ben Usman
-tagline:          'Math, machine learning, physics and whatever'
-description:      'I actually don" know what to put here yet '
-# url:              http://lanyon.getpoole.com
-
-author:
-  name:           'Ben Usman'
-  # url:            https://twitter.com/mdo
+title:            Ben Usman (aka MInner)
+tagline:          'Math, machine learning, physics, lingustics and whatever'
+description:      'Some insirational text here'
 
 paginate:         5
 
-# Custom vars
-version:          2.0.0
-
-github:
-  repo:           https://github.com/MInner/MInner.github.io
+#
+sidebar:
+  Home: 		  '/'
+  About: 		  '/about'
+  Archive: 		  '/archive'
